@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background: local;
+        }
+        form{
+            width: 60px;
+            margin: 2px;
+            background: darksalmon;
+            padding: 5cap;
+        }
+        input,select,textarea{
+            width: 60px;
+            height: 20;
+        }
+
+       </style> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+<body>
+    <body style="background-color:burlywood;"
+    <label for="Fname">Fullname:
+    </label>
+    <input type="text" id="Fname" name="Fname", placeholder="Enter name">
+    <br><br>
+    <label for="email"> Email</label>
+    
+    <input type="email" id="email" name="email", placeholder="Enter email"><br><br>
+    <label for="password">password</label>
+    <input type="password" id="password" name="password" placeholder="password"><br><br>
+    <label for="age">Age</label>
+    <input type="number" id="age" name="age" placeholder="Enter age"><br><br>
+    <label for="Module">Select Module</label>
+    <input type="checkbox" id="Module" name="Module">Java
+    <input type="checkbox" id="Module" name="Module">HTML
+    <input type="checkbox" id="Module" name="Module">CSS
+    <input type="checkbox" id="Module" name="Module">Routing<br><br>
+    <label for="Gender">Select your Gender:</label><br><br>
+    <input type="radio" id="gender">Male
+    <input type="radio" id="gender">Female<br><br>
+    <label for="Contry">Select your country of orgin:</label>
+    <select  id="country" name="Country">
+    <option value="">---Choose----</option>
+    <option value="RW">Rwanda</option>
+    <option value="GB">Gabon</option>
+    <option value="SD">Sudan</option>
+    <option value="UG">Uganda</option>
+</select><br><br>
+<label for="textarea">Please provide your feedback</label><br><br>
+<textarea id="textarea" name="textarea" rows="4" cols="40" placeholder="message here"></textarea><br><br>
+<button type="submit">Submit</button>
+<button type="reset">clear</button>
+</body>
+</html>

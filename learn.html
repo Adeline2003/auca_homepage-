@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Dashboard</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f5f5f5;
+    padding:20px;
+}
+
+/* Top Cards */
+.top-cards{
+    display:flex;
+    gap:15px;
+    margin-bottom:20px;
+}
+
+.card{
+    flex:1;
+    background:white;
+    border:1px solid #ddd;
+    border-radius:10px;
+    padding:20px;
+}
+
+.card h3{
+    margin-bottom:15px;
+}
+
+.card p{
+    color:#004c99;
+    font-weight:bold;
+}
+
+/* Navigation */
+.navbar{
+    background:white;
+    padding:15px;
+    border-radius:10px;
+    border:1px solid #ddd;
+    margin-bottom:20px;
+}
+
+.navbar a{
+    text-decoration:none;
+    color:#004c99;
+    margin-right:25px;
+    font-size:18px;
+}
+
+/* Main Content */
+.content{
+    display:flex;
+    gap:20px;
+}
+
+/* Left Panel */
+.left-panel{
+    width:30%;
+}
+
+.box{
+    background:white;
+    border-radius:10px;
+    border:1px solid #ddd;
+    padding:20px;
+    margin-bottom:20px;
+}
+
+.status{
+    color:green;
+    font-weight:bold;
+    margin-top:15px;
+}
+
+.pay-btn{
+    background:#198754;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:8px;
+    cursor:pointer;
+    margin-top:15px;
+}
+
+/* Right Panel */
+.right-panel{
+    width:70%;
+}
+
+.controls{
+    background:white;
+    border-radius:10px;
+    border:1px solid #ddd;
+    padding:20px;
+}
+
+.controls h2{
+    margin-bottom:20px;
+}
+
+.buttons{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+}
+
+.btn{
+    background:#6c85a4;
+    color:white;
+    border:none;
+    padding:12px 20px;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+.outline-btn{
+    padding:12px 20px;
+    border:2px solid #0d6efd;
+    background:white;
+    color:#0d6efd;
+    border-radius:8px;
+    cursor:pointer;
+    margin-top:20px;
+}
+</style>
+
+</head>
+<body>
+
+<!-- Top Cards -->
+
+<div class="top-cards">
+
+    <div class="card">
+        <h3>Student</h3>
+        <p>28274 - Ntivuguruzwa Marie Adeline</p>
+    </div>
+
+    <div class="card">
+        <h3>Faculty</h3>
+        <p>Information Technology</p>
+    </div>
+
+    <div class="card">
+        <h3>Department</h3>
+        <p>Software Engineering</p>
+    </div>
+
+    <div class="card">
+        <h3>Program</h3>
+        <p>Day</p>
+    </div>
+
+    <div class="card">
+        <h3>Balance Fin.</h3>
+        <p>0.00 RWF</p>
+    </div>
+
+</div>
+
+<!-- Menu -->
+
+<div class="navbar">
+    <a href="#">Home</a>
+    <a href="#">Academic Bulletin</a>
+    <a href="#">Courses Prerequisites</a>
+    <a href="#">My Balance</a>
+    <a href="#">Failed Courses</a>
+    <a href="#">Chat</a>
+</div>
+
+<!-- Main Content -->
+
+<div class="content">
+
+    <!-- Left Side -->
+
+    <div class="left-panel">
+
+        <div class="box">
+            <h3>Disciplinary Status</h3>
+            <p class="status">SATISFACTORY</p>
+        </div>
+
+        <div class="box">
+            <h3>Fees Summary</h3>
+            <br>
+            <h2>Pay Online</h2>
+            <button class="pay-btn">Pay Now</button>
+        </div>
+
+    </div>
+
+    <!-- Right Side -->
+
+    <div class="right-panel">
+
+        <div class="controls">
+
+            <h2>Controls</h2>
+
+            <div class="buttons">
+
+                <button class="btn">Valid Registration</button>
+                <button class="btn">View Transcript</button>
+                <button class="btn">View Timetable</button>
+                <button class="btn">EPC Certificate</button>
+                <button class="btn">Exam Permit</button>
+                <button class="btn">Attendance Certificate</button>
+
+            </div>
+
+            <button class="outline-btn">Exam Timetable</button>
+            <button class="outline-btn">Room Allocation</button>
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
